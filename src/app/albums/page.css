@@ -1,0 +1,55 @@
+.contenedorPaginaAlbums {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("/homeMusic.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contenedorPaginaAlbums h1 {
+    color: gold;
+    font-size: 4rem;
+    text-shadow: 0 0 3px rgb(255, 174, 0), 0 0 6px rgba(255, 215, 0, 0.7);
+    font-family: sans-serif;
+}
+
+.contenedorBuscar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.contenedorBuscar input {
+    background-color: black;
+    border-radius: 20px;
+    border-color: gold;
+    font-size: large;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    width: 400px;
+}
+
+.contenedorBuscar button {
+    background-color: black;
+    border-radius: 20px;
+    border-color: gold;
+    font-size: large;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.listaAlbums {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}

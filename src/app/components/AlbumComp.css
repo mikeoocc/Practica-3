@@ -1,0 +1,31 @@
+.contenedorDeAlbums {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    padding: 30px;
+    background: black;
+    border-radius: 28px;
+    font-family: sans-serif;
+    color: gold;
+}
+
+.contenedorDeAlbums img {
+    width: 150px;
+    height: 15vh;
+    margin-bottom: 20px;
+}
+
+.contenedorDeAlbums p {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.contenedorDeAlbums button {
+    background-color: gold;
+    border-radius: 20px;
+    border-color: gold;
+    font-size: large;
+    cursor: pointer;
+    color: black;
+}
