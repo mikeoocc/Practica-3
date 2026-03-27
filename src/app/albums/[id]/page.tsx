@@ -27,7 +27,7 @@ const AlbumConId = () => {
     return (
 
         <div className="contenedorTotalDetalle">
-            <button onClick={() => router.push("/albums")}>VOLVER</button>
+            <button onClick={() => router.back()}>VOLVER</button>
             {!album && loading && <h1>Loading. . .</h1>}
             {!loading && !error && album && (
                 <div className="contenedorDetalle">
